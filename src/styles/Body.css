@@ -1,0 +1,77 @@
+.body_image_container{
+    width: auto;
+    height: auto;
+    background-color: white;
+    /* opacity: 60%; */
+    background-image: url("../images/bodyBaground.jpg");
+    background-position: bottom; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+
+}
+
+.body_image_container_transparent{
+    width: 100%;
+    height: 100%;
+
+}
+.body_image_meta{
+  padding: 15px 0px 15px 0px ;
+
+  width: auto;
+  height: 10%;
+  /* background-color: green; */
+  display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.body_image_info{
+  width: auto;
+  height: 80%;
+  /* background-color: red; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:center ;
+}
+
+.body_image_links{
+  padding: 15px 0px 15px 0px ;
+  width: auto;
+  height: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: blue; */
+}
+.profile_photo{
+  width: 250px;
+  height: 250px;
+  background-color: violet;
+  border-radius: 50%;
+  background-image: url("../images/Me_short.jpg");
+  background-position: bottom; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+.profile_name{
+  margin-top: 10px;
+  width:300px;
+  height: 80px;
+  background-image: url("../images/MarlonRoches.png");
+  background-position: bottom; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+.red_logo{
+  width: 30px;
+  height: auto;
+  padding: 5px 5px 5px 5px ;
+  /* background-size: cover; Resize the background image to cover the entire container */
+
+}
+/* .red_logo:hover{
+  width: 40px;
+  height: auto;
+} */

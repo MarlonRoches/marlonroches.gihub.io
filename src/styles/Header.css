@@ -1,0 +1,28 @@
+Header{
+    width: auto;
+    height: 70px;
+    background-color:#f4f7f6 ;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.header-contact{
+    height: 100%;
+    width: 10%;
+    color: white;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+
+}
+
+.header_logo{
+    width: 50%;
+    height: 90%;
+    /* background-image: url("../images/RocheSofw_Black.png"); */
+    background-image: url("../images/RS\ Black.png");
+    background-position: bottom; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    
+}
