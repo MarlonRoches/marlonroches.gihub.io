@@ -2,6 +2,7 @@ import "../styles/Body.css"
 import LinkedIn from "../images/Redes/LinkedIn.png"
 import gmail from "../images/Redes/gmail.png"
 import giihuib from "../images/Redes/giihuib.png"
+import Skills from "./BodyComponents/BodyContainer"
 const monthNames = ["January", "February", "March", "April", "May", "June",
   "July", "August", "September", "October", "November", "December"
 ];
@@ -21,6 +22,7 @@ function Body(params) {
             <div className="body_image_container_transparent">
             </div>
         </div>
+        <Skills/>
         Body
     </div>)
 
